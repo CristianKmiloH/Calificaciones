@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas Colegio Mayor</title>
+</head>
+<body>
+    <h1>Notas Colegio Mayor</h1>
+    <form>
+        <label for="studentId">Enter your ID</label>
+        <input id="studentId" type="number" max="9999999999">
+        <br>
+        <br>
+        <label for="studentName">Enter your Name</label>
+        <input id="studentName" type="text" maxlength="50">
+        <br>
+        <br>
+        <label for="Note1">Enter your first note</label>
+        <input id="Note1" type="text" max="5" min="1" step=".1"> 
+        <br>
+        <br>
+        <label for="Note2">Enter your second note</label>
+        <input id="Note2" type="text" max="5" min="1" step=".1">
+        <br>
+        <br>
+        <label for="Note3">Enter your third note</label>
+        <input id="Note3" type="text" max="5" min="1" step=".1">
+        <br>
+        <br>
+        <br>
+        <button id="saveDataBtn">Guardar</button>
+    </form>
+    <br>
+    <hr>
+
+    <a href="consultarData.html">Ir a consultar</a>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
